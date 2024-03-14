@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 107390068}
   - component: {fileID: 107390067}
   - component: {fileID: 107390066}
+  - component: {fileID: 107390071}
+  - component: {fileID: 107390070}
   m_Layer: 0
   m_Name: PlayerTwo
   m_TagString: Paddle
@@ -221,11 +223,39 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 1791.39, y: 685.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &107390070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107390065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468b43cfe73619e44b2cd7e599537a67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upKey: 0
+  downKey: 0
+  speed: 0
+--- !u!114 &107390071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107390065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e06929d2581b8d40a9e9485d8d898b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &161144233
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,8 +365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468b43cfe73619e44b2cd7e599537a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upKey: 273
-  downKey: 274
+  upKey: 119
+  downKey: 115
   speed: 5
 --- !u!114 &166868806
 MonoBehaviour:
@@ -350,6 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e06929d2581b8d40a9e9485d8d898b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
 --- !u!114 &166868807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,10 +460,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 189, y: 70.3}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 150, y: 0}
+  m_SizeDelta: {x: 40, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &666952515
 GameObject:
