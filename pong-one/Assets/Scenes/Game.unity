@@ -240,8 +240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468b43cfe73619e44b2cd7e599537a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upKey: 0
-  downKey: 0
+  upKey: 273
+  downKey: 274
   speed: 0
 --- !u!114 &107390071
 MonoBehaviour:
